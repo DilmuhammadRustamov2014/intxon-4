@@ -1,0 +1,14 @@
+@layer utilities {
+    .bg-custom-radial {
+      background: radial-gradient(50% 50% at 50% 50%, rgba(0, 131, 253, 0.63), rgba(0, 131, 253, 0) 100%);
+    }
+    .text-shadow{
+      background: #3E7FFF 100% #FFFFFF 100% #558EFD 100%;
+    }
+    .bg-custom-btn-radial {
+      background: radial-gradient(1384.26% 141.42% at 0% 100%, rgb(128, 40, 241) 5.374%, rgb(40, 241, 229) 100%);
+    }
+    .bg-images{
+      background-image: radial-gradient(122.43% 87.30% at 28.999999999999996% 42%,rgba(129, 0, 108, 0.53) 73.453%,rgba(0, 94, 213, 0.53) 88.707%)/* Предупреждение: градиент использует вращение, не поддерживаемое CSS, и может работать не так, как ожидается. */;
+    }
+  }
